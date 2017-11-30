@@ -45,15 +45,30 @@ In that case you would need Micro-HDMI to Micro-HDMI cable to connect the camera
 !!! tip
     Resolution and frame per second value of the input stream may vary. Maximum supported video format is 1080p 30fps
 
-## Connect Wi-Fi
+## Connect Wi-Fi modules
 
-You need to connect the USB wireless adapter to Edge to port labeled as USB2
+Edge kit comes with two identical long-range Wi-Fi modules in separate boxes.
+Use one to connect to Edge drone controller and another one to connect to a computer.
 
-<div style="text-align: center;"><img src="../img/quickstart/edge_to_wifi_top_view.png" style="width: 350px;"></div><br>
+### Connect Wi-Fi module to Edge
 
-And connect another end to the USB port of your laptop using original Alfa’s cable
+<div style="text-align: center;"><img src="../img/quickstart/edge_to_wifi_top_view.png" style="width: 550px;"></div><br>
 
-<div style="text-align: center;"><img src="../img/quickstart/wifi_to_laptop.png" style="width: 350px;"></div><br>
+To connect Wi-Fi module to Edge use a Micro-USB to JSH-GH-4P cable.
+
+* Plug JST-GH-4P connector into Edge port labeled USB2
+* Plug Micro-USB connector into Micro-USB port of the Wi-Fi module
+
+### Connect Wi-Fi module to a computer
+
+We need to connect your laptop to your Wi-Fi module. In order to do that you need to perform two simple steps
+
+<div style="text-align: center;"><img src="../img/quickstart/wifi_to_laptop.png" style="width: 550px;"></div><br>
+
+Use Alfa’s Micro-USB-3.0 to USB-3.0 cable from the Wi-Fi module box
+
+* Connect Micro-USB-3.0 one end of the cable to the Wi-Fi module
+* Connect the other end to the USB port of your laptop/desktop computer
 
 ## Software installation
 
