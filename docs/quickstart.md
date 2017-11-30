@@ -20,7 +20,30 @@ To connect Edge GNSS module to Edge use a JST-GH-4P-to-JST-GH-4P cable.
 
 <div style="text-align: left;"><img src="../img/quickstart/edge_to_gnss_top_view.png" style="width: 500px;"></div><br>
 
-You can connect the wire to any of the two CAN ports on Edge.
+You can connect the wire to any of the two CAN ports on Edge
+
+## Connect video camera
+
+Camera should be connected to HDMI-IN port on Edge.
+In case you are connecting an action camera then most likely it will have Micro-HDMI connector as well.
+In that case you would need Micro-HDMI to Micro-HDMI cable to connect the camera to Edge.
+
+<div style="text-align: center;"><img src="../img/quickstart/camera_to_edge.png" style="width: 550px;"></div><br>
+
+!!! danger
+    Turn off the camera’s internal WiFi, otherwise it may interfere with RC equipment or Wi-Fi modules
+
+!!! warning
+    Turn on the camera after Edge has booted (led-status.md reference)
+
+!!! warning
+    Turn the camera on after Edge is [booted](led-status.md)
+
+!!! warning
+    Turn off the camera’s WiFi
+
+!!! tip
+    Resolution and frame per second value of the input stream may vary. Maximum supported video format is 1080p 30fps
 
 ## Connect Wi-Fi
 
@@ -31,21 +54,6 @@ You need to connect the USB wireless adapter to Edge to port labeled as USB2
 And connect another end to the USB port of your laptop using original Alfa’s cable
 
 <div style="text-align: center;"><img src="../img/quickstart/wifi_to_laptop.png" style="width: 350px;"></div><br>
-
-## Connect camera
-
-Connect camera to HDMI input port using µHDMI to µHDMI cable.
-
-<div style="text-align: center;"><img src="../img/quickstart/camera_to_hdmi_input.png" style="width: 350px;"></div><br>
-
-!!! warning
-    Turn the camera on after Edge is [booted](led-status.md)
-
-!!! warning
-    Turn off the camera’s WiFi
-
-!!! tip
-    Resolution and frame per second value of the input stream may vary. Maximum supported video format is 1080p 60fps
 
 ## Software installation
 
