@@ -1,16 +1,24 @@
 ### Intro
 
-In this quick tutorial we will show you how to two set up Edge to stream video from your camera connected over µHDMI
+This quickstart tutorial will guide you through the initial setup of Edge drone controller and its accessories.
+In the end you’ll get a configured Edge drone controller that streams video from a camera to your laptop.
+After that you can proceed to the hardware installation guide and install your Edge in a frame.
 
 !!! tip
-    If you encounter any issues performing these steps, we will be happy to help at our [**community forum**](http://community.emlid.com/).
+    If you encounter any issues performing these steps, we are happy to help you out on our [**community forum**](http://community.emlid.com/).
 
-## Connect GNSS module
+## Connect Edge GNSS module
 
-EDGE GNSS is a positioning module interfaced via CAN bus. It includes a GPS/GLONASS receiver, a high-precision barometric
-altimeter, and two 3-axis compasses. GNSS module has 2 ports connected to the same bus. To connect GNSS module to Edge use a 4-pin JST-GH wire
+Edge GNSS module is a positioning device interfaced via CAN bus. It includes a GPS/GLONASS/BeiDou/Galileo receiver, a high-precision barometer, and two 3-axis compasses.
+The module has 2 ports internally connected to the same CAN bus.
 
-<div style="text-align: center;"><img src="../img/quickstart/edge_to_gnss_top_view.png" style="width: 350px;"></div><br>
+To connect Edge GNSS module to Edge use a JST-GH-4P-to-JST-GH-4P cable.
+
+* Connect one end of the cable to any of the CAN ports on Edge GNSS module
+* Connect another end of the cable to any of the CAN ports of Edge drone controller
+
+
+<div style="text-align: left;"><img src="../img/quickstart/edge_to_gnss_top_view.png" style="width: 500px;"></div><br>
 
 You can connect the wire to any of the two CAN ports on Edge.
 
