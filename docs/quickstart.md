@@ -141,5 +141,14 @@ Well, now we need to install QGroundControl version specifically tailored for Ed
 
 Coming soon
 
+## Power from a battery
 
+Now you can turn on your Edge using Power Module (PM).
 
+Connect JST-GH-6P connector to any power port on Edge (PWR1 or PWR2)
+
+<div style="text-align: center;"><img src="../img/quickstart/edge_to_pm.png" style="width: 550px;"></div><br>
+
+And after that connect a battery to your PM
+
+<div style="text-align: center;"><img src="../img/quickstart/pm_to_battery.png" style="width: 550px;"></div><br>
