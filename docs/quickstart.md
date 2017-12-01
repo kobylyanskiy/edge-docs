@@ -233,3 +233,9 @@ After this step click `Start streaming` and you will get the video stream from y
 !!! attention
     Please don’t unplug or turn off camera before clicking on “Stop streaming”
 
+## Conclusion
+
+That’s it, folks! If you have any questions, feel free to ask them on our [community forum](https://community.emlid.com).
+
+Now you can continue to [installation](hardware/pinout.md) on a frame.
+
