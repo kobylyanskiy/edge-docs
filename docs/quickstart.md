@@ -69,3 +69,29 @@ Use Alfa’s Micro-USB-3.0 to USB-3.0 cable from the Wi-Fi module box
 
 * Connect Micro-USB-3.0 one end of the cable to the Wi-Fi module
 * Connect the other end to the USB port of your laptop/desktop computer
+
+## Software installation
+
+### Wi-Fi module driver
+
+Now we need to install the driver for your Wi-Fi module. The instructions depend on your OS.
+
+#### Windows
+
+Note: To update drivers you need network connection.
+*   Connect Wi-Fi module to laptop.
+*   Start device manager:
+    * Open the "Run" dialog box by pressing and holding the Windows key, then press the R key ("Run")
+    * Type devmgmt.msc
+
+<div style="text-align: center;"><img src="../img/quickstart/devmgmt.png" style="width: 550px;"></div><br>
+
+* Expand Network Adapters category
+* Right click on “Realtek 8812AU Wireless LAN 802.11ac USB NIC” and select Update Driver Software
+* Select Search automatically for updated driver software
+
+<div style="text-align: center;"><img src="../img/quickstart/windows_drivers_search.png" style="width: 550px;"></div><br>
+
+Windows will find the newest version of driver and install it.
+
+<div style="text-align: center;"><img src="../img/quickstart/device_manager.png" style="width: 550px;"></div><br>
