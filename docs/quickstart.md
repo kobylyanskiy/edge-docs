@@ -121,3 +121,25 @@ sudo modprobe 8812au
 
 * [Download](http://files.emlid.com/edge/drivers/macosx/036AC_ACH_MacOS10.6_MacOS10.11_Driver_1830.10.b2_1827.4.b22_DropDownMenu_5.0.3.b3.zip) the driver
 * Unzip the downloaded archive and install it from the pkg file
+
+### QGroungControl
+
+Well, now we need to install QGroundControl version specifically tailored for Edge. The installation steps depend on the OS you use.
+
+
+#### Windows
+
+* [Download](http://files.emlid.com/qgc/3.2.4-edge-1.0/QGroundControl-3.2.4-edge-1.0-windows.exe) the app
+* Double click the executable to launch the installer and click through the required steps
+
+#### Linux
+
+* [Download](http://files.emlid.com/qgc/3.2.4-edge-1.0/QGroundControl-3.2.4-edge-1.0-linux.AppImage.zip) the app
+* Unzip and launch the QGC using the AppImage file
+
+#### Mac Os X
+
+Coming soon
+
+
+
