@@ -1,5 +1,5 @@
 
-<div style="text-align: center;"><img src="img/edge.png"></div><br>
+<div style="text-align: center;"><img src="img/edge.png" style="width: 400px;"></div><br>
 
 Welcome to your Emlid Edge!
 
