@@ -204,3 +204,32 @@ After these steps you’ll see the new link added with your the name you specifi
 
 !!! note
     By default QGC will set Video Source to UDP. If you had had another setup (i.e. another QGroundControl version installed) you’ll need to change it in the General tab of QGC settings
+
+## Enjoy videostream
+
+We’re almost there! Just a couple more steps to get the video stream on your screen.
+
+Go to the Fly menu <span style="text-align: center;"><img style="vertical-align:middle"  style="width: 10px;" src="../img/quickstart/qgc_fly_menu.png"></span> and click on a black rectangle in the bottom left corner
+
+<div style="text-align: center;"><img src="../img/quickstart/qgc_general_window.png" style="width: 550px;"></div><br>
+
+In the lower right corner will appear an icon <span style="text-align: center;"><img style="vertical-align:middle"  style="width: 10px;" src="../img/quickstart/qgc_general_video_stream_settings.png"> for settings of the video stream:
+
+<div style="text-align: center;"><img src="../img/quickstart/qgc_hud_video_stream_settings.png" style="width: 550px;"></div><br>
+
+After pressing this button a menu will pop up
+
+<div style="text-align: center;"><img src="../img/quickstart/qgc_video_stream_settings_popup.png" style="width: 550px;"></div><br>
+
+Here you can set video resolution, bitrate and rotation
+
+!!! tip
+    By default QGC will set the IP of your PC and the default port from Video settings in the General menu
+
+After this step click `Start streaming` and you will get the video stream from your camera
+
+<div style="text-align: center;"><img src="../img/quickstart/qgc_video_stream_example.png" style="width: 550px;"></div><br>
+
+!!! attention
+    Please don’t unplug or turn off camera before clicking on “Stop streaming”
+
