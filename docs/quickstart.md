@@ -169,3 +169,38 @@ After powering up Edge needs some time to create an access point (AP). Connect t
     Be sure you connect to AP using Alfa, not the built-in Wi-Fi module of your laptop
 
 After the connection succeeded you can run the QGC
+
+## QGroundControl configuration
+
+On the top window choose QGC settings  <span style="text-align: center;"><img style="vertical-align:middle" src="../img/quickstart/qgc_settings_button.png" style="width: 10px;"></span> from the main menu
+
+<div style="text-align: center;"><img src="../img/quickstart/qgc_main_window_settings_selected.png" style="width: 550px;"></div><br>
+
+In the opened settings tab click on Comm Link tab
+
+<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_selected.png" style="width: 550px;"></div><br>
+
+You will see the window for creating connection. Click Add to create new connection to Edge. After that you’ll see a tab with network settings
+
+<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_type_udp_selected.png" style="width: 550px;"></div><br>
+
+Now we need to configure the connection to your Edge. Just a couple more simple steps
+
+* Select UDP as a connection type
+* Give a name to this connection and make it automatically connect on start
+* Add a target host
+    * Click `Add` and type in the IP of Edge (192.168.0.1) or just Edge’s hostname (edge)
+    * Press Enter
+    * Leave the default port (14550) as is
+    * Click `OK` button
+
+After these steps you’ll see the new link added with your the name you specified
+
+* Now you can connect to Edge, press connect for the created link
+
+<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_connect_selected.png" style="width: 550px;"></div><br>
+
+* QGC will connect to Edge and will start receiving its parameters
+
+!!! note
+    By default QGC will set Video Source to UDP. If you had had another setup (i.e. another QGroundControl version installed) you’ll need to change it in the General tab of QGC settings
