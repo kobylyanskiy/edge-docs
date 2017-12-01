@@ -95,3 +95,24 @@ Note: To update drivers you need network connection.
 Windows will find the newest version of driver and install it.
 
 <div style="text-align: center;"><img src="../img/quickstart/device_manager.png" style="width: 550px;"></div><br>
+
+#### Linux
+
+The Wi-Fi module uses RTL8812AU chipset under the hood which requires drivers that have not been merged with the linux kernel and do not come with most linux distros (yet).
+That’s why you need to build it by yourself for now. In the future this step will be automated.
+
+* Make sure sure you have the required build packages
+
+```sudo apt-get install linux-headers-generic build-essential git```
+
+* Download the source code
+
+   ```git clone https://github.com/emlid/8812au.git```
+
+* Compile the kernel module and install it
+
+```
+cd 8812au
+make -j$(nproc) && sudo make install
+sudo modprobe 8812au
+```
