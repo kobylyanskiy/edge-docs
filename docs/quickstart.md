@@ -152,3 +152,20 @@ Connect JST-GH-6P connector to any power port on Edge (PWR1 or PWR2)
 And after that connect a battery to your PM
 
 <div style="text-align: center;"><img src="../img/quickstart/pm_to_battery.png" style="width: 550px;"></div><br>
+
+## Connect to Edge’s access point
+
+After powering up Edge needs some time to create an access point (AP). Connect to Edge’s AP (edge) with password: EmlidEdge (since 1.2 the password will be emlidedge)
+
+!!! warning
+    Most laptops have a built-in Wi-Fi module. You need to connect to Edge using Alfa Wi-Fi module
+
+<div style="text-align: center;"><img src="../img/quickstart/laptop_two_wifi_adapters_linux.png" style="width: 250px;"></div><br>
+
+!!! warning
+    To avoid interference from the internal Wi-Fi we recommend disabling it
+
+!!! warning
+    Be sure you connect to AP using Alfa, not the built-in Wi-Fi module of your laptop
+
+After the connection succeeded you can run the QGC
