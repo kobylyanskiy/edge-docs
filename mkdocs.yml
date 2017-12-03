@@ -33,7 +33,7 @@ pages:
 - Quickstart: 'quickstart.md'
 - Hardware installation: 
   - 'Ports and pinouts': 'hardware/pinout.md'
-  - 'GPS': 'hardware/gps.md'
+  - 'Edge GNSS': 'hardware/gnss.md'
   - 'Camera': 'hardware/camera.md'
   - 'Wi-Fi (Antenna placement)': 'hardware/wifi.md'
   - 'Scheme': 'hardware/scheme.md'
