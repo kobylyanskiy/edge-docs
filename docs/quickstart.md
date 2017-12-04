@@ -18,9 +18,9 @@ To connect Edge GNSS module to Edge use a JST-GH-4P-to-JST-GH-4P cable.
 * Connect another end of the cable to any of the CAN ports of Edge drone controller
 
 
-<div style="text-align: left;"><img src="../img/quickstart/edge_to_gnss_top_view.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/edge_to_gnss_top_view.png" style="width: 500px;"></div><br>
 
-You can connect the wire to any of the two CAN ports on Edge
+You can connect the wire to any of the two CAN ports on Edge.
 
 ## Connect video camera
 
@@ -30,17 +30,13 @@ In that case you would need Micro-HDMI to Micro-HDMI cable to connect the camera
 
 <div style="text-align: center;"><img src="../img/quickstart/camera_to_edge.png" style="width: 550px;"></div><br>
 
-!!! danger
+!!! danger "Attention"
     Turn off the camera’s internal WiFi, otherwise it may interfere with RC equipment or Wi-Fi modules
 
-!!! warning
-    Turn on the camera after Edge has booted (led-status.md reference)
 
 !!! warning
     Turn the camera on after Edge is [booted](led-status.md)
 
-!!! warning
-    Turn off the camera’s WiFi
 
 !!! tip
     Resolution and frame per second value of the input stream may vary. Maximum supported video format is 1080p 30fps
@@ -117,6 +113,10 @@ make -j$(nproc) && sudo make install
 sudo modprobe 8812au
 ```
 
+!!! note
+    If you get "Required key not available" message when trying to run modprobe please disable Secure Boot in UEFI (BIOS) settings.
+
+
 #### Mac Os X
 
 * [Download](http://files.emlid.com/edge/drivers/macosx/036AC_ACH_MacOS10.6_MacOS10.11_Driver_1830.10.b2_1827.4.b22_DropDownMenu_5.0.3.b3.zip) the driver
@@ -124,7 +124,9 @@ sudo modprobe 8812au
 
 ### QGroungControl
 
-Well, now we need to install QGroundControl version specifically tailored for Edge. The installation steps depend on the OS you use.
+!!! attention "We need to install QGroundControl version specifically tailored for Edge. Please use download links below to get required QGroundControl version for Windows, Linux and Mac OS."
+
+The installation steps depend on the OS you use.
 
 
 #### Windows
@@ -135,7 +137,14 @@ Well, now we need to install QGroundControl version specifically tailored for Ed
 #### Linux
 
 * [Download](http://files.emlid.com/qgc/3.2.4-edge-1.0/QGroundControl-3.2.4-edge-1.0-linux.AppImage.zip) the app
+* Install GStreamer libraries 
+
+```
+apt install gstreamer1.0-plugins-bad gstreamer1.0-libav
+```
 * Unzip and launch the QGC using the AppImage file
+
+
 
 #### Mac Os X
 
@@ -157,30 +166,30 @@ And after that connect a battery to your PM
 
 After powering up Edge needs some time to create an access point (AP). Connect to Edge’s AP (edge) with password: EmlidEdge (since 1.2 the password will be emlidedge)
 
-!!! warning
+!!! warning "Note"
     Most laptops have a built-in Wi-Fi module. You need to connect to Edge using Alfa Wi-Fi module
 
 <div style="text-align: center;"><img src="../img/quickstart/laptop_two_wifi_adapters_linux.png" style="width: 250px;"></div><br>
 
-!!! warning
+!!! tip
     To avoid interference from the internal Wi-Fi we recommend disabling it
 
 !!! warning
     Be sure you connect to AP using Alfa, not the built-in Wi-Fi module of your laptop
 
-After the connection succeeded you can run the QGC
+After the connection succeeded you can run the QGC.
 
 ## QGroundControl configuration
 
-On the top window choose QGC settings  <span style="text-align: center;"><img style="vertical-align:middle" src="../img/quickstart/qgc_settings_button.png" style="width: 10px;"></span> from the main menu
+On the top window choose QGC settings <span style="text-align: center;"><img style="vertical-align:middle" src="../img/quickstart/qgc_settings_button.png" style="width: 10px;"></span> from the main menu.
 
 <div style="text-align: center;"><img src="../img/quickstart/qgc_main_window_settings_selected.png" style="width: 550px;"></div><br>
 
-In the opened settings tab click on Comm Link tab
+In the opened settings tab click on Comm Link tab.
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_selected.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_selected.png" style="width: 350px;"></div><br>
 
-You will see the window for creating connection. Click Add to create new connection to Edge. After that you’ll see a tab with network settings
+You will see the window for creating connection. Click Add to create new connection to Edge. After that you’ll see a tab with network settings.
 
 <div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_type_udp_selected.png" style="width: 550px;"></div><br>
 
@@ -198,7 +207,7 @@ After these steps you’ll see the new link added with your the name you specifi
 
 * Now you can connect to Edge, press connect for the created link
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_connect_selected.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_connect_selected.png" style="width: 350px;"></div><br>
 
 * QGC will connect to Edge and will start receiving its parameters
 
@@ -211,11 +220,11 @@ We’re almost there! Just a couple more steps to get the video stream on your s
 
 Go to the Fly menu <span style="text-align: center;"><img style="vertical-align:middle"  style="width: 10px;" src="../img/quickstart/qgc_fly_menu.png"></span> and click on a black rectangle in the bottom left corner
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_general_window.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_general_window.png" style="width: 650px;"></div><br>
 
 In the lower right corner will appear an icon <span style="text-align: center;"><img style="vertical-align:middle"  style="width: 10px;" src="../img/quickstart/qgc_general_video_stream_settings.png"> for settings of the video stream:
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_hud_video_stream_settings.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_hud_video_stream_settings.png" style="width: 350px;"></div><br>
 
 After pressing this button a menu will pop up
 
