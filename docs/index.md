@@ -11,5 +11,5 @@ We hope that you’ll like Edge and it will become your number one choice for dr
 
 ### Collaboration
 
-This document can be edited on [GitHub](https://github.com/emlid/edge-docs) in markdown. If you find any mistakes, typos or  pieces that are not documented well enough simply open an issue or contribute by sending a pull request.
+This document can be edited on [GitHub](https://github.com/emlid/edge-docs) in Markdown. If you find any mistakes, typos or  pieces that are not documented well enough simply open an issue or contribute by sending a pull request.
 
