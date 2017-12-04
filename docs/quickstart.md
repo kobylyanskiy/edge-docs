@@ -92,6 +92,19 @@ Windows will find the newest version of driver and install it.
 
 <div style="text-align: center;"><img src="../img/quickstart/device_manager.png" style="width: 550px;"></div><br>
 
+!!! warning
+    You you should turn off location services on Windows in order to make driver work smoother. This setting has a direct impact on the videostream.
+
+#### Steps for disabling location service in Windows 10
+
+* First, open up the Settings, click on the Privacy group and navigate to Location section.
+
+<div style="text-align: center;"><img src="../img/quickstart/win10_location.png" style="width: 550px;"></div><br>
+
+* Click the “Change” button, which will then open a new window so you can turn off the “Location for this device”.
+
+<div style="text-align: center;"><img src="../img/quickstart/win10_location_off.png" style="width: 550px;"></div><br>
+
 #### Linux
 
 The Wi-Fi module uses RTL8812AU chipset under the hood which requires drivers that have not been merged with the linux kernel and do not come with most linux distros (yet).
