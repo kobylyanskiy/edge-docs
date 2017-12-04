@@ -2,7 +2,13 @@
 
 Download the latest available image
 
-* [v1.1](files.emlid.com/edge/firmware/2017-11-14-edge-emlid-v1.1.img.xz)
+* [v1.1](https://files.emlid.com/edge/firmware/2017-11-14-edge-emlid-v1.1.img.xz)
+
+## Connect Edge to your PC
+
+To connect Edge to your computer use USB-cable and PC port on Edge. 
+
+<div style="text-align: center;"><img src="../img/firmware-update/pc_to_edge.png" style="width: 550px;"></div><br>
 
 ## Flash your Edge
 
@@ -31,10 +37,10 @@ Finally, there!
 <div style="text-align: center;"><img src="../img/firmware-update/etcher_windows_cm_initialization_done.png" style="width: 550px;"></div><br>
 
 
-Click `Flash`. The process will take a few minutes. Please, be patient!
+Click `Flash`. 
 
 !!! tip
-    Be patient!
+    The process will take a few minutes. Please, be patient!
 
 
 <div style="text-align: center;"><img src="../img/firmware-update/etcher_windows_flash.png" style="width: 550px;"></div><br>
