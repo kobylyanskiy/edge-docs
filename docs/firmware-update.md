@@ -45,6 +45,52 @@ Click `Flash`.
 
 <div style="text-align: center;"><img src="../img/firmware-update/etcher_windows_flash.png" style="width: 550px;"></div><br>
 
+
 ### Linux
 
-QGroundControl on Linux can do everything for you in the firmware update tab. We'll update the docs to make them more straight-forward.
+Open QGroundControl, choose `Setup` <img src="../img/firmware-update/qground_setup_ico.png" style="width:30px; vertical-align: middle"> menu and go to `Firmware` tab
+
+<div style="text-align: center;"><img src="../img/firmware-update/qgc_upgrader_linux_start.png" style="width: 800px;"></div><br>
+
+Plug in your device (If you did not do it before) and wait until QGroundControl automatically detects it.
+
+<div style="text-align: center;"><img src="../img/firmware-update/qgc_upgrader_linux_edge_available.png" style="width: 800px;"></div><br>
+
+Next, click on the `Connect` button to start initialization your device.
+
+<div style="text-align: center;"><img src="../img/firmware-update/qgc_upgrader_linux_edge_connected.png" style="width: 800px;"></div><br>
+
+QGroundControl will ask you for administrative privileges.
+
+<div style="text-align: center;"><img src="../img/firmware-update/qgc_upgrader_linux_auth.png" style="width: 800px;"></div><br>
+
+
+Wait several seconds while QGrounControl initializes your device.
+
+<div style="text-align: center;"><img src="../img/firmware-update/qgc_upgrader_linux_init_start.png" style="width: 800px;"></div><br>
+
+After initialization completes, you'll see this dialog:
+
+* (1) You can enable or disable checksum computation 
+* (2) You should choose file with Edge firmware
+
+!!! tip
+	If you enable checksum computation, QGroundControl will check correctness of flashing.
+
+<div style="text-align: center;"><img src="../img/firmware-update/qgc_upgrader_linux_prefs_menu.png" style="width: 800px;"></div><br>
+
+Next, you should select Edge firmware image
+
+<div style="text-align: center;"><img src="../img/firmware-update/qgc_upgrader_linux_select_image.png" style="width: 800px;"></div><br>
+
+After file is selected, press `Ok` at the top right corner of the dialog window and firmware update will start.
+You can cancel the update process by pressing `Cancel` button.
+
+!!! tip
+	If you enable checksum, you should wait while QGroundControl computes it from your image and from image which is written to the device. The progress of computation will be shown on the progress bar.
+
+<div style="text-align: center;"><img src="../img/firmware-update/qgc_upgrader_linux_flasher_running.png" style="width: 800px;"></div><br>
+
+When firmware update complete, you can unplug your device.
+
+<div style="text-align: center;"><img src="../img/firmware-update/qgc_upgrader_linux_end.png" style="width: 800px;"></div><br>
