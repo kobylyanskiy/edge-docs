@@ -1,5 +1,7 @@
 ## Edge drone controller
 
+<div style="text-align: center;"><img src="../../img/hardware_installation/edge_size.png" style="width: 500px;"></div><br>
+
 | | |
 |:-|:-:|
 | Size | 97 x 46 x 15 mm |
@@ -7,6 +9,13 @@
 | Operating t | -40...+80 ºC |
 
 ## GNSS module
+
+<div style="text-align: center;"><img src="../../img/hardware_installation/edge-gnss-dimensions_of_holes.png" style="width: 500px;"></div><br>
+
+<div style="text-align: center;"><img src="../../img/hardware_installation/dimensions_of_holes.png" style="width: 500px;"></div><br>
+!!! tip
+    The depth of the threads is 4.5mm.
+
 | | |
 |:-|:-:|
 | Size | 72 x 72 x 15 mm |
