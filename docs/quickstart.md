@@ -194,7 +194,7 @@ After the connection succeeded you can run the QGC.
 
 ## QGroundControl configuration
 
-On the top window choose QGC settings <span style="text-align: center;"><img style="vertical-align:middle" src="../img/quickstart/qgc_settings_button.png" style="width: 10px;"></span> from the main menu.
+On the top window choose QGC settings <span style="text-align: center;"><img src="../img/quickstart/qgc_settings_button.png" style="width: 30px; vertical-align:middle"></span> from the main menu.
 
 <div style="text-align: center;"><img src="../img/quickstart/qgc_main_window_settings_selected.png" style="width: 550px;"></div><br>
 
