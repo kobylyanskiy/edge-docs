@@ -2,11 +2,17 @@
 
 Download the latest available image
 
-* [v1.1](https://files.emlid.com/edge/firmware/2017-11-14-edge-emlid-v1.1.img.xz)
+* [Emlid Edge image v1.1 (2017-11-14)](https://files.emlid.com/edge/firmware/2017-11-14-edge-emlid-v1.1.img.xz)
 
-## Connect Edge to your PC
+## Connect Edge to a computer
 
-To connect Edge to your computer use USB-cable and PC port on Edge. 
+!!! notice 
+	Power off Edge before connecting it to the computer
+	
+To connect Edge to your computer use a Micro-USB to USB-A cable from the kit.
+
+* Plug Micro-USB connector into the PC port on Edge
+* Plug another end of the cable into a USB port on your computer
 
 <div style="text-align: center;"><img src="../img/firmware-update/pc_to_edge.png" style="width: 550px;"></div><br>
 
