@@ -126,8 +126,51 @@ sudo modprobe 8812au
 ```
 
 !!! note
-    If you get "Required key not available" message when trying to run modprobe please disable Secure Boot in UEFI (BIOS) settings.
+    If you get "Required key not available" message when trying to run `modprobe` please perform the following steps to manually sign the module.
 
+##### Kernel module signing (Linux)
+
+* Create a directory to store custom ssl keys there
+
+```bash
+mkdir ~/.ssl
+cd ~/.ssl
+```
+
+* Create an X.509 Key Pair
+
+```bash
+openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=local_rtl8812au/"
+```
+
+* Sign the module
+
+```bash
+sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n 8812au)
+```
+
+* Add the key to the trusted keys database
+```bash
+sudo apt-get install mokutil
+sudo mokutil --import ./MOK.der
+```
+You will be prompted for a password that will be used for the second part of the MOK enrollment.
+
+* Reboot your machine, the shim UEFI Key Manager will appear
+
+    * Press a key to start the process
+    * select "Enroll MOK"
+    * select "Continue"
+    * select "Yes"
+    * enter the password
+
+And the key has been inserted. This is a persistent operation, so you’ll only need to do this once.
+When you have finished booting you can easily check that EFI loaded the key:
+```bash
+dmesg | grep 'EFI: Loaded cert' | grep 8812
+```
+
+From now on you should be able to run `modprobe 8812au` without any problem.
 
 #### Mac Os X
 
