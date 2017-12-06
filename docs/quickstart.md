@@ -20,13 +20,12 @@ To connect Edge GNSS module to Edge use a JST-GH-4P-to-JST-GH-4P cable.
 
 <div style="text-align: center;"><img src="../img/quickstart/edge_to_gnss_top_view.png" style="width: 500px;"></div><br>
 
-You can connect the wire to any of the two CAN ports on Edge.
 
 ## Connect video camera
 
-Camera should be connected to HDMI-IN port on Edge.
+Camera should be connected to the HDMI-IN port on Edge.
 In case you are connecting an action camera then most likely it will have Micro-HDMI connector as well.
-In that case you would need Micro-HDMI to Micro-HDMI cable to connect the camera to Edge.
+In that case you would need Micro-HDMI to Micro-HDMI cable to connect the camera to the Edge.
 
 <div style="text-align: center;"><img src="../img/quickstart/camera_to_edge.png" style="width: 550px;"></div><br>
 
@@ -44,20 +43,20 @@ In that case you would need Micro-HDMI to Micro-HDMI cable to connect the camera
 ## Connect Wi-Fi modules
 
 Edge kit comes with two identical long-range Wi-Fi modules in separate boxes.
-Use one to connect to Edge drone controller and another one to connect to a computer.
+Use one to connect to the Edge drone controller and another one to connect to a computer (assuming a laptop for rest of the guide).
 
 ### Connect Wi-Fi module to Edge
 
 <div style="text-align: center;"><img src="../img/quickstart/edge_to_wifi_top_view.png" style="width: 550px;"></div><br>
 
-To connect Wi-Fi module to Edge use a Micro-USB to JSH-GH-4P cable.
+To connect Wi-Fi module to the Edge use a Micro-USB to JSH-GH-4P cable from the kit.
 
 * Plug JST-GH-4P connector into Edge port labeled USB2
 * Plug Micro-USB connector into Micro-USB port of the Wi-Fi module
 
 ### Connect Wi-Fi module to a computer
 
-We need to connect your laptop to your Wi-Fi module. In order to do that you need to perform two simple steps
+We need to connect another Wi-Fi module to the laptop. In order to do that you need to perform two simple steps
 
 <div style="text-align: center;"><img src="../img/quickstart/wifi_to_laptop.png" style="width: 550px;"></div><br>
 
@@ -70,12 +69,12 @@ Use Alfa’s Micro-USB-3.0 to USB-3.0 cable from the Wi-Fi module box
 
 ### Wi-Fi module driver
 
-Now we need to install the driver for your Wi-Fi module. The instructions depend on your OS.
+Now we need to install the driver for the Wi-Fi module. The instructions depend on your OS.
 
 #### Windows
 
 Note: To update drivers you need network connection.
-*   Connect Wi-Fi module to laptop.
+*   Connect Wi-Fi module to the laptop.
 *   Start device manager:
     * Open the "Run" dialog box by pressing and holding the Windows key, then press the R key ("Run")
     * Type devmgmt.msc
@@ -93,9 +92,9 @@ Windows will find the newest version of driver and install it.
 <div style="text-align: center;"><img src="../img/quickstart/device_manager.png" style="width: 550px;"></div><br>
 
 !!! warning
-    You you should turn off location services on Windows in order to make driver work smoother. This setting has a direct impact on the videostream.
+    You you should turn off location services on Windows in order to make the driver work smoother. This setting has a direct impact on the stability of the videostream.
 
-#### Steps for disabling location service in Windows 10
+#### Steps for disabling location services in Windows 10
 
 * First, open up the Settings, click on the Privacy group and navigate to Location section.
 
@@ -135,9 +134,9 @@ sudo modprobe 8812au
 * [Download](http://files.emlid.com/edge/drivers/macosx/036AC_ACH_MacOS10.6_MacOS10.11_Driver_1830.10.b2_1827.4.b22_DropDownMenu_5.0.3.b3.zip) the driver
 * Unzip the downloaded archive and install it from the pkg file
 
-### QGroungControl
+### QGroundControl for Edge
 
-!!! attention "We need to install QGroundControl version specifically tailored for Edge. Please use download links below to get required QGroundControl version for Windows, Linux and Mac OS."
+!!! attention "We need to install QGroundControl version specifically tailored for Edge, we call it "QGroundControl for Edge". Please use download links below to get required QGroundControl version for Windows, Linux and Mac OS."
 
 The installation steps depend on the OS you use.
 
@@ -165,34 +164,34 @@ Coming soon
 
 ## Power from a battery
 
-Now you can turn on your Edge using Power Module (PM).
+Now you can turn on your Edge using the Edge Power Module (PM).
 
-Connect JST-GH-6P connector to any power port on Edge (PWR1 or PWR2)
+Connect JST-GH-6P connector to any power port on Edge (PWR1 or PWR2).
 
 <div style="text-align: center;"><img src="../img/quickstart/edge_to_pm.png" style="width: 550px;"></div><br>
 
-And after that connect a battery to your PM
+And after that connect a battery to your PM.
 
 <div style="text-align: center;"><img src="../img/quickstart/pm_to_battery.png" style="width: 550px;"></div><br>
 
 ## Connect to Edge’s access point
 
-After powering up Edge needs some time to create an access point (AP). Connect to Edge’s AP (edge) with password: EmlidEdge (since 1.2 the password will be emlidedge)
+After powering up Edge needs some time to create an access point (AP). Connect to Edge’s AP (edge) with password: EmlidEdge (since 1.2 the password will be emlidedge).
 
 !!! warning "Note"
-    Most laptops have a built-in Wi-Fi module. You need to connect to Edge using Alfa Wi-Fi module
+    Most laptops have a built-in Wi-Fi module. You need to connect to Edge using specifically the external Wi-Fi module provided with Edge
 
 <div style="text-align: center;"><img src="../img/quickstart/laptop_two_wifi_adapters_linux.png" style="width: 250px;"></div><br>
 
 !!! tip
     To avoid interference from the internal Wi-Fi we recommend disabling it
 
-!!! warning
-    Be sure you connect to AP using Alfa, not the built-in Wi-Fi module of your laptop
+!!! attention
+    Be sure you connect to AP using the external Wi-Fi module, not the built-in Wi-Fi module of your laptop
 
 After the connection succeeded you can run the QGC.
 
-## QGroundControl configuration
+## Configuring QGroundControl for Edge
 
 On the top window choose QGC settings <span style="text-align: center;"><img src="../img/quickstart/qgc_settings_button.png" style="width: 30px; vertical-align:middle"></span> from the main menu.
 
@@ -227,7 +226,7 @@ After these steps you’ll see the new link added with your the name you specifi
 !!! note
     By default QGC will set Video Source to UDP. If you had had another setup (i.e. another QGroundControl version installed) you’ll need to change it in the General tab of QGC settings
 
-## Enjoy videostream
+## Launching a videostream
 
 We’re almost there! Just a couple more steps to get the video stream on your screen.
 
@@ -248,7 +247,7 @@ Here you can set video resolution, bitrate and rotation
 !!! tip
     By default QGC will set the IP of your PC and the default port from Video settings in the General menu
 
-After this step click `Start streaming` and you will get the video stream from your camera
+After this step click `Start streaming` and you will get the video stream from your camera.
 
 <div style="text-align: center;"><img src="../img/quickstart/qgc_video_stream_example.png" style="width: 550px;"></div><br>
 
