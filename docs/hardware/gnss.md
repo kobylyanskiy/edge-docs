@@ -1,13 +1,26 @@
 ## Edge GNSS module
 
-Use JST-GH-4P to JST-GH-4P cable for GNSS connection. You can use every CAN port.
+The Edge GNSS module contains two compasses, barometer and an RGB LED.
+
+Use a JST-GH-4P to JST-GH-4P cable to connect the Edge GNSS module. You can use any CAN port.
 
 <div style="text-align: center;"><img src="../../img/hardware_installation/edge_to_gnss.png" style="width: 500px;"></div><br>
 
-!!! Warning
-    Edge GNSS module contains magnetometer and barometer. Do not place it near electromagnetic radiation (power cables, electromotors, steel details).
+!!! warning
+     Do not install the GNSS module near sources of electromagnetic radiation like power cables, electromotors, steel parts, etc.
 
-!!! Warning
-    For correct functioning of GNSS navigation dispose Edge GNSS module above other drone parts. Do not place on Edge GNSS module's body other devices. 
-!!! Tip
-    For clamping Edge GNSS module on the drone you can use holes for self-tapping screw (be careful, a depth of holes is 4.5mm), stand with the diameter of 4mm or double sided tape.
+!!! warning
+    For the GNSS module to function properly install the Edge GNSS module above other drone parts
+
+!!! warning
+    Do not place other devices on Edge GNSS module
+
+To install the Edge GNSS module on the drone you can use 
+
+* holes for self-tapping screws 
+
+!!! tip
+    Be careful! Depth of the holes is 4.5mm
+
+* a stand with the diameter of 4mm 
+* double-sided duct tape
