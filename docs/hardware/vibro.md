@@ -10,11 +10,11 @@ We'd like to share with all of you STL models of all needed parts. For that refe
 
 ## Installation
 
-First off, you need to screw down the base vibration platform to the Edge.
+First off, you need to screw down the front and back of the vibration platform to the Edge.
 
 <div style="text-align: center;"><img src="../../img/vibro/vibro_platform_screws.png" style="width: 500px;"></div><br>
 
-Then install [vibration damping balls](https://hobbyking.com/en_us/vibration-damping-ball-65g-bag-of-8.html?___store=en_us) into a vibration damping platform  
+Then install [vibration damping balls](https://hobbyking.com/en_us/vibration-damping-ball-65g-bag-of-8.html?___store=en_us) into a vibration base damping platform
 
 <div style="text-align: center;"><img src="../../img/vibro/vibro_damp_balls.png" style="width: 300px;"></div><br>
 
