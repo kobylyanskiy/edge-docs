@@ -1,6 +1,12 @@
 ## Edge drone controller
 
-| | |
+|Port | Current |
+|:-|:-:|
+|CAN combined | 700mA|
+|USB1 + USB2 | 1300mA|
+|RC receiver| 300mA|
+
+| Feature | Description |
 |:-|:-:|
 | Processors |ARM Cortex-A53 quad-core<hr>ARM Cortex-M3|
 | IMU | 2x InvenSense ICM-20602 with temperature control |
@@ -14,7 +20,8 @@
 | Connectors | JST-GH |
 
 ## GNSS module
-| | |
+
+| Feature | Description |
 |:-|:-:|
 | GNSS | uBlox NEO-M8N |
 | Barometer | Meas MS-5611 |
@@ -25,7 +32,7 @@
 
 ## Power module
 
-| | |
+| Feature | Description |
 |:-|:-:|
 | Input voltage | 4.3 - 60 V |
 | Max current | 60 A <hr> 200 A <br> (_with resoldered connectors and wires_) |
@@ -36,7 +43,7 @@
 
 ## Wireless data link
 
-| | |
+| Feature | Description |
 |:-|:-:|
 |Frequency | 5.180–5.825 GHz |
 |Transmit power | Up to 27 dBm |
