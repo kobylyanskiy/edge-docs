@@ -4,7 +4,7 @@
 
 | | |
 |:-|:-|
-|Working voltage|2-12V|
+|Working voltage|2-12S|
 |Maximum load| 200A|
 
 
