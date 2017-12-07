@@ -1,5 +1,7 @@
 ## Edge drone controller
 
+### Dimensions
+
 <div style="text-align: center;"><img src="../../img/hardware_installation/edge_size.png" style="width: 500px;"></div><br>
 
 | | |
@@ -8,7 +10,16 @@
 | Weight | 59 g |
 | Operating t | -40...+80 ºC |
 
+###Recommended holes for mounting Edge.
+
+<div style="text-align: center;"><img src="../../img/hardware_installation/recommended_holes_for_mounting_edge.png" style="width: 500px;"></div><br>
+
+!!! tip
+    For screwing Edge please use thread M2 with the length not less than 6mm
+
 ## GNSS module
+
+### Dimensions
 
 <div style="text-align: center;"><img src="../../img/hardware_installation/edge-gnss-dimensions_of_holes.png" style="width: 500px;"></div><br>
 
