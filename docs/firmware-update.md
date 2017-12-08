@@ -2,7 +2,7 @@
 
 Download the latest available image
 
-* [Emlid Edge image v1.1 (2017-11-14)](https://files.emlid.com/edge/firmware/2017-11-14-edge-emlid-v1.1.img.xz)
+* [Emlid Edge image v1.2 (2017-12-08)](https://files.emlid.com/edge/firmware/2017-12-08-edge-emlid-v1.2.img.zip)
 
 ## Connect Edge to a computer
 
