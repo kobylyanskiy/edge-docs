@@ -217,7 +217,7 @@ Now we need to configure the connection to your Edge. Just a couple more simple 
     * Leave the default port (14550) as is
     * Click `OK` button
 
-After these steps you’ll see the new link added with your the name you specified
+After these steps you’ll see the new link added with the name you specified
 
 * Now you can connect to Edge, press connect for the created link
 
