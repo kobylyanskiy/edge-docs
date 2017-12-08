@@ -4,7 +4,7 @@ The Edge GNSS module contains two compasses, barometer and an RGB LED.
 
 Use a JST-GH-4P to JST-GH-4P cable to connect the Edge GNSS module. You can use any CAN port.
 
-<div style="text-align: center;"><img src="../../img/hardware_installation/edge_to_gnss.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/hardware/edge_to_gnss.png" style="width: 500px;"></div><br>
 
 !!! warning
      Do not install the GNSS module near sources of electromagnetic radiation like power cables, electromotors, steel parts, etc.

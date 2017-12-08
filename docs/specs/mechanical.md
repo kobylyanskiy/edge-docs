@@ -1,6 +1,6 @@
 ## Edge drone controller
 
-<div style="text-align: center;"><img src="../../img/hardware_installation/edge_size.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/hardware/edge_size.png" style="width: 500px;"></div><br>
 
 | | |
 |:-|:-:|
@@ -13,16 +13,16 @@
 | Extension ports | 2x CAN<hr> 2x USB<hr> 1x Serial+I2C<hr> 1x Serial+ADC<hr>1x PC USB |
 | Connectors | JST-GH |
 
-<div style="text-align: center;"><img src="../../img/hardware_installation/recommended_holes_for_mounting_edge.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/hardware/recommended_holes_for_mounting_edge.png" style="width: 500px;"></div><br>
 
 !!! tip
     For screwing Edge please use thread M2 with the length not less than 6mm
 
 ## GNSS module
 
-<div style="text-align: center;"><img src="../../img/hardware_installation/edge-gnss-dimensions_of_holes.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/hardware/edge-gnss-dimensions_of_holes.png" style="width: 500px;"></div><br>
 
-<div style="text-align: center;"><img src="../../img/hardware_installation/dimensions_of_holes.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/hardware/dimensions_of_holes.png" style="width: 500px;"></div><br>
 !!! tip
     The depth of the threads is 4.5mm.
 
@@ -37,7 +37,7 @@
 
 ## Power module
 
-<div style="text-align: center;"><img src="../../img/hardware_installation/pm_dimensions.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/hardware/pm_dimensions.png" style="width: 500px;"></div><br>
 
 | | |
 |:-|:-:|

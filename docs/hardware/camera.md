@@ -2,7 +2,7 @@
 
 Use HDMI cable with Micro-HDMI connector to connect camera to the HDMI-IN port on Edge.
 
-<div style="text-align: center;"><img src="../../img/hardware_installation/edge_to_camera.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/hardware/edge_to_camera.png" style="width: 500px;"></div><br>
 
 
 !!! notice 

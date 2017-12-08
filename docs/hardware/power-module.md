@@ -12,7 +12,7 @@
 
 Use a JST-GH-6P to JST-GH-6P cable to connect your Edge power module.
 
-<div style="text-align: center;"><img src="../../img/hardware_installation/edge_power_module.png" style="width: 500px;"></div><br>
+<div style="text-align: center;"><img src="../../img/hardware/edge_power_module.png" style="width: 500px;"></div><br>
 
 * Plug one end of the cable in either PWR1 or PWM2 port on the Edge drone controller
 * Plug another end of the very same cable in the port of the Edge power module
