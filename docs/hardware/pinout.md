@@ -21,4 +21,4 @@
 
 ## Pinout
 
-<a href="../../img/hardware/edge_ports_horizontal.png" target="_blank"> ![scheme](../../img/hardware/edge_ports_horizontal.png)</a>
+<a href="../../img/hardware/edge_ports_horizontal.png" target="_blank"> ![scheme](https://docs.emlid.com/edge/img/hardware/edge_ports_horizontal.png)</a>
