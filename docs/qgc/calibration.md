@@ -3,18 +3,18 @@
 Calibrate your Radio Control Transmitter.
 
 !!! note
-    Before calibration you need bind your transmitter and receiver.
+    Before calibration you need to bind your transmitter and receiver
 
-For starting calibration select `Vehicle Setup` and then `Radio` tab. Turn on your RC transmitter.
+To start calibration select `Vehicle Setup` and then `Radio` tab. Turn on your RC transmitter.
 
 <div style="text-align: center;"><img src="../../img/qgc/radio_calibration.png" style="width: 800px;"></div><br>
 
-Press `Calibrate` then `Ok` and follow instructions.
+Press `Calibrate`, then `Ok` and follow the instructions.
 
 <div style="text-align: center;"><img src="../../img/qgc/radio_calibration_progress.png" style="width: 800px;"></div><br>
 
 Move the sticks to the positions indicated in the text (and on the transmitter image).
-When prompted, move all other switches and dials through their full range and then click `Next`.
+When asked, move all other switches and dials through their full range and then click `Next`.
 
 Calibration completed. Click `Next` to write the new parameters.
 
@@ -26,11 +26,11 @@ Go to Sensors Calibration menu. For that select `Vehicle Setup` and then `Sensor
 
 <div style="text-align: center;"><img src="../../img/qgc/sensors_calibration.png" style="width: 800px;"></div><br>
 
-There you will see available sensors which displayed as a list of buttons beside the sidebar. Choose one of the required sensor and then click `Ok` for starting calibration.
+There you will see available sensors which are displayed as a list of buttons in the sidebar. Choose one of the required sensor and then click `Ok` to start calibration.
 
 ### Accelerometer
 
-During accelerometer calibration you will be asked to place and hold your vehicle a number of orientations (you will be prompted when to move between positions).
+During accelerometer calibration you will be asked to place and hold your vehicle to a number of orientations (you will be prompted when to move between positions).
 
 <div style="text-align: center;"><img src="../../img/qgc/accelerometer_calibration.png" style="width: 500px;"></div><br>
 
@@ -48,7 +48,8 @@ During compass calibration you will need to rotate the vehicle randomly around a
 !!! note
     Accelerometer must be calibrated prior to Level Horizon
 
-If the horizon (as shown in the HUD) is not level after completing Accelerometer calibration you can calibrate the level horizon for your vehicle. You will be asked to place the vehicle in a level orientation while it captures the information.
+If the horizon (as shown in the HUD) is not leveled after completing Accelerometer calibration you can calibrate the level horizon for your vehicle.
+You will be asked to place the vehicle in a level orientation while it is capturing the information.
 
 ## Battery monitor
 
