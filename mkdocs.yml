@@ -36,7 +36,7 @@ pages:
   - 'Edge GNSS': 'hardware/gnss.md'
   - 'Camera': 'hardware/camera.md'
   - 'Wi-Fi (Antenna placement)': 'hardware/wifi.md'
-  - 'Vibration damp': 'hardware/vibro.md'
+  - 'Vibration damping': 'hardware/vibro.md'
   - '3D models': 'hardware/3dmodels.md'
   - 'Power module': 'hardware/power-module.md'
 - Flying with QGroundControl: 
@@ -49,3 +49,4 @@ pages:
 - Specifications: 
   - 'Mechanical': 'specs/mechanical.md'
   - 'Electrical': 'specs/electrical.md'
+  - 'Features': 'specs/features.md'
