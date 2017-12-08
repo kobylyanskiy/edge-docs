@@ -136,9 +136,11 @@ sudo modprobe 8812au
 
 ### QGroundControl for Edge
 
-!!! attention "We need to install QGroundControl version specifically tailored for Edge, we call it "QGroundControl for Edge". Please use download links below to get required QGroundControl version for Windows, Linux and Mac OS."
+!!! attention
+    We need to install QGroundControl version specifically tailored for Edge, we call it "QGroundControl for Edge"
 
-The installation steps depend on the OS you use.
+Please use download links below to get required QGroundControl version for Windows, Linux and Mac OS.
+The installation steps depend on the OS you use as well.
 
 
 #### Windows
