@@ -5,7 +5,7 @@
 | | |
 |:-|:-|
 |Working voltage|2-12S|
-|Maximum load| 200A|
+|Maximum load| 60A <hr> 200A[*](power-module/#modifications-for-high-current-setups)|
 
 
 ### Connection
