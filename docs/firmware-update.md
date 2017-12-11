@@ -22,6 +22,7 @@ The instructions depend on your OS
 
 ### Windows
 
+* Download and install [RpiBoot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)
 * Download [Etcher](https://etcher.io/) (v1.2.0 or later)
 * Extract the downloaded file
 * Run
