@@ -111,49 +111,19 @@ That’s why you need to build it by yourself for now. In the future this step w
 
 * Make sure sure you have the required build packages
 
-```sudo apt-get install linux-headers-generic build-essential git```
+    `sudo apt-get install linux-headers-generic build-essential git mokutil`
 
 * Download the source code
 
-   ```git clone https://github.com/emlid/8812au.git```
+    `git clone https://github.com/emlid/8812au.git`
 
-* Compile the kernel module and install it
+    `cd 8812au`
 
-```
-cd 8812au
-make -j$(nproc) && sudo make install
-sudo modprobe 8812au
-```
+* Run `install-rtl8812au` script to compile, install and sign (if security boot is enabled) the module
 
-!!! note
-    If you get "Required key not available" message when trying to run `modprobe` please perform the following steps to manually sign the module.
+    `sudo ./install-rtl8812au`
 
-##### Kernel module signing (Linux)
 
-* Create a directory to store custom ssl keys there
-
-```bash
-mkdir ~/.ssl
-cd ~/.ssl
-```
-
-* Create an X.509 Key Pair
-
-```bash
-openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=local_rtl8812au/"
-```
-
-* Sign the module
-
-```bash
-sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n 8812au)
-```
-
-* Add the key to the trusted keys database
-```bash
-sudo apt-get install mokutil
-sudo mokutil --import ./MOK.der
-```
 You will be prompted for a password that will be used for the second part of the MOK enrollment.
 
 * Reboot your machine, the shim UEFI Key Manager will appear
@@ -170,7 +140,6 @@ When you have finished booting you can easily check that EFI loaded the key:
 dmesg | grep 'EFI: Loaded cert' | grep 8812
 ```
 
-From now on you should be able to run `modprobe 8812au` without any problem.
 
 #### Mac Os X
 
