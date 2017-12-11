@@ -20,7 +20,7 @@ Use the picture below with the dimensions of the Edge GNSS module which can help
 
 To install the Edge GNSS module on the drone you can use 
 
-* a stand with the diameter of 4mm 
+* a stand with the diameter of 3.9mm 
 * double-sided duct tape
 * holes for self-tapping screws 
 
