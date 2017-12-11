@@ -6,7 +6,7 @@ noise. This can greatly improve your flight experience.
 
 ## Manufacturing
 
-We'd like to share with all of you STL models of all needed parts. For that refer to [3dmodels](3dmodels.md).
+We'd like to share with all of you STL models of all needed parts. For that refer to [3dmodels](../hardware/3dmodels.md).
 
 ## Installation
 
