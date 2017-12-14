@@ -235,7 +235,7 @@ After these steps you’ll see the new link added with the name you specified
 
 We’re almost there! Just a couple more steps to get the video stream on your screen.
 
-Go to the Fly menu <span style="text-align: center;"><img style="vertical-align:middle"  style="width: 10px;" src="../img/quickstart/qgc_fly_menu.png"></span> and click on a black rectangle in the bottom left corner
+Go to the Fly menu <span style="text-align: center;"><img src="../img/quickstart/qgc_fly_menu.png" style="width: 30px; vertical-align:middle"></span> and click on a black rectangle in the bottom left corner
 
 <div style="text-align: center;"><img src="../img/quickstart/qgc_general_window.png" style="width: 650px;"></div><br>
 
