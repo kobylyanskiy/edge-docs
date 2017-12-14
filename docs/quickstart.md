@@ -223,6 +223,9 @@ After these steps you’ll see the new link added with the name you specified
 
 <div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_connect_selected.png" style="width: 350px;"></div><br>
 
+!!! warning
+    You will need to ensure there is no firewall on PC stopping the incoming stream to your GCS.
+
 * QGC will connect to Edge and will start receiving its parameters
 
 !!! note
