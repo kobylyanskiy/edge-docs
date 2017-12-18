@@ -10,7 +10,7 @@ We'd like to share with all of you STL models of all needed parts. Here's a list
 
 ### Base
 
-[Base platform model](../../files/vibro/base.stl)
+[Base platform model](https://docs.emlid.com/edge/files/vibro/base.stl)
 
 <div style="text-align: center;"><img src="../../img/vibro/vibro_damp_base.png" style="width: 300px;"></div><br>
 
@@ -22,11 +22,11 @@ Here you can see the dimensions of the base platform
 
 These are the ones that are intended to be screwed to the Edge controller itself
 
-[Front model](../../files/vibro/front.stl)
+[Front model](https://docs.emlid.com/edge/files/vibro/front.stl)
 
 <div style="text-align: center;"><img src="../../img/vibro/vibro_damp_front.png" style="width: 300px;"></div><br>
 
-[Back model](../../files/vibro/back.stl)
+[Back model](https://docs.emlid.com/edge/files/vibro/back.stl)
 
 <div style="text-align: center;"><img src="../../img/vibro/vibro_damp_back.png" style="width: 300px;"></div><br>
 
