@@ -74,6 +74,7 @@ Now we need to install the driver for the Wi-Fi module. The instructions depend 
 #### Windows
 
 Note: To update drivers you need network connection.
+
 *   Connect Wi-Fi module to the laptop.
 *   Start device manager:
     * Open the "Run" dialog box by pressing and holding the Windows key, then press the R key ("Run")
