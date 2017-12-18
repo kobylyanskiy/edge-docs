@@ -12,7 +12,7 @@ After that you can proceed to the hardware installation guide and install your E
 Edge GNSS module is a positioning device interfaced via CAN bus. It includes a GPS/GLONASS/BeiDou/Galileo receiver, a high-precision barometer, and two 3-axis compasses.
 The module has 2 ports internally connected to the same CAN bus.
 
-To connect Edge GNSS module to Edge use a JST-GH-4P-to-JST-GH-4P cable.
+To connect Edge GNSS module to Edge use a JST-GH-4P to JST-GH-4P cable.
 
 * Connect one end of the cable to any of the CAN ports on Edge GNSS module
 * Connect another end of the cable to any of the CAN ports of Edge drone controller
@@ -80,7 +80,7 @@ Note: To update drivers you need network connection.
     * Open the "Run" dialog box by pressing and holding the Windows key, then press the R key ("Run")
     * Type devmgmt.msc
 
-<div style="text-align: center;"><img src="../img/quickstart/devmgmt.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/devmgmt.png" style="width: 450px;"></div><br>
 
 * Expand Network Adapters category
 * Right click on “Realtek 8812AU Wireless LAN 802.11ac USB NIC” and select Update Driver Software
@@ -103,7 +103,7 @@ Windows will find the newest version of driver and install it.
 
 * Click the “Change” button, which will then open a new window so you can turn off the “Location for this device”.
 
-<div style="text-align: center;"><img src="../img/quickstart/win10_location_off.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/win10_location_off.png" style="width: 310px;"></div><br>
 
 #### Linux
 
@@ -214,11 +214,11 @@ On the top window choose QGC settings <span style="text-align: center;"><img src
 
 In the opened settings tab click on Comm Link tab.
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_selected.png" style="width: 350px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_selected.png" style="width: 280px;"></div><br>
 
 You will see the window for creating connection. Click Add to create new connection to Edge. After that you’ll see a tab with network settings.
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_type_udp_selected.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_type_udp_selected.png" style="width: 450px;"></div><br>
 
 Now we need to configure the connection to your Edge. Just a couple more simple steps
 
@@ -250,15 +250,15 @@ We’re almost there! Just a couple more steps to get the video stream on your s
 
 Go to the Fly menu <span style="text-align: center;"><img src="../img/quickstart/qgc_fly_menu.png" style="width: 30px; vertical-align:middle"></span> and click on a black rectangle in the bottom left corner
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_general_window.png" style="width: 650px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_general_window.png" style="width: 600px;"></div><br>
 
 In the lower right corner will appear an icon <span style="text-align: center;"><img style="vertical-align:middle"  style="width: 10px;" src="../img/quickstart/qgc_general_video_stream_settings.png"> for settings of the video stream:
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_hud_video_stream_settings.png" style="width: 350px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_hud_video_stream_settings.png" style="width: 250px;"></div><br>
 
 After pressing this button a menu will pop up
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_video_stream_settings_popup.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_video_stream_settings_popup.png" style="width: 380px;"></div><br>
 
 Here you can set video resolution, bitrate and rotation
 

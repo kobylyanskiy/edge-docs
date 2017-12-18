@@ -4,11 +4,11 @@ To set up connection select QGC settings on the top window <span style="text-ali
 
 In the opened settings tab click on `Comm Link` tab.
 
-<div style="text-align: center;"><img src="../../img/quickstart/qgc_comm_links_selected.png" style="width: 350px;"></div><br>
+<div style="text-align: center;"><img src="../../img/quickstart/qgc_comm_links_selected.png" style="width: 250px;"></div><br>
 
 The appeared menu allows you to manually create communication links and connect to them. Click `Add` to create new connection to Edge. After that you’ll see a tab with link settings.
 
-<div style="text-align: center;"><img src="../../img/qgc/create_new_link.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../../img/qgc/create_new_link.png" style="width: 450px;"></div><br>
 
 You can create one of the following connections:
 

@@ -3,7 +3,7 @@
 You can select your vehicle type using QGroundControl.
 After starting QGC go to the `Vehicle Setups` menu <img src="../../img/qgc/vehicle_setup_menu.png" style="width:30px; vertical-align: middle">  and there choose `Vehicle` tab
 
-<div style="text-align: center;"><img src="../../img/qgc/vehicle_setup_button.png" style="width: 200px;"></div><br>
+<div style="text-align: center;"><img src="../../img/qgc/vehicle_setup_button.png" style="width: 150px;"></div><br>
 
 In the `Vehicle Setup` Settings you can set one of the following vehicle types:
 

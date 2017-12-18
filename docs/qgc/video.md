@@ -4,11 +4,11 @@ Connect to Edge and go to the `Fly` menu <span style="text-align: center;"><img 
 
 In the lower right corner will appear an icon <span style="text-align: center;"><img style="vertical-align:middle"  style="width: 10px;" src="../../img/quickstart/qgc_general_video_stream_settings.png"> for settings of the video stream:
 
-<div style="text-align: center;"><img src="../../img/quickstart/qgc_hud_video_stream_settings.png" style="width: 350px;"></div><br>
+<div style="text-align: center;"><img src="../../img/quickstart/qgc_hud_video_stream_settings.png" style="width: 250px;"></div><br>
 
 After pressing this button a menu will pop up
 
-<div style="text-align: center;"><img src="../../img/quickstart/qgc_video_stream_settings_popup.png" style="width: 450px;"></div><br>
+<div style="text-align: center;"><img src="../../img/quickstart/qgc_video_stream_settings_popup.png" style="width: 380px;"></div><br>
 
 Here you can set video resolution, bitrate and rotation
 
@@ -26,4 +26,4 @@ After changing settings click again on `Start streaming` to restart stream with 
 
 You can choose another target for video stream. For this select `Send video to Manual` and enter the IP and port of destination
 
-<div style="text-align: center;"><img src="../../img/qgc/video_stream_to_manual.png" style="width: 450px;"></div><br>
+<div style="text-align: center;"><img src="../../img/qgc/video_stream_to_manual.png" style="width: 400px;"></div><br>
