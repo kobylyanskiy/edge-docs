@@ -141,7 +141,7 @@ dmesg | grep 'EFI: Loaded cert' | grep 8812
 ```
 
 
-#### Mac Os X
+#### Mac OS X
 
 * [Download](http://files.emlid.com/edge/drivers/macosx/036AC_ACH_MacOS10.6_MacOS10.11_Driver_1830.10.b2_1827.4.b22_DropDownMenu_5.0.3.b3.zip) the driver
 * Unzip the downloaded archive and install it from the pkg file
@@ -172,7 +172,7 @@ apt install gstreamer1.0-plugins-bad gstreamer1.0-libav
 
 
 
-#### Mac Os X
+#### Mac OS X
 
 Coming soon
 
