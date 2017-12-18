@@ -94,7 +94,7 @@ Windows will find the newest version of driver and install it.
 !!! warning
     You you should turn off location services on Windows in order to make the driver work smoother. This setting has a direct impact on the stability of the videostream.
 
-#### Steps for disabling location services in Windows 10
+##### Steps for disabling location services in Windows 10
 
 * First, open up the Settings, click on the Privacy group and navigate to Location section.
 
