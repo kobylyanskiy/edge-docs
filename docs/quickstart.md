@@ -73,24 +73,42 @@ Now we need to install the driver for the Wi-Fi module. The instructions depend 
 
 #### Windows
 
-Note: To update drivers you need network connection.
+
+* Download driver for Windows
+
+<center>
+
+Windows 10 | Windows 8 | Windows 7 | Windows Vista | Windows XP
+:---:|:---:|:---:|:---:|:---:
+[win10_x86](https://files.emlid.com/edge/drivers/windows/Win10_x86_Realtek_USB_Driver_1030.24.0601.2017.rar) | [win8_x86](https://files.emlid.com/edge/drivers/windows/Win8_x86_Realtek_USB_Driver_1030.21.0302.2017.rar) | [win7_x86](https://files.emlid.com/edge/drivers/windows/Win7_x86_Realtek_USB_Driver_1030.21.0302.2017.rar) | [winVista_x86](https://files.emlid.com/edge/drivers/windows/Vista_x86_Realtek_USB_Driver_1030.21.0302.2017.rar) | [winXP_x86](https://files.emlid.com/edge/drivers/windows/WinXP_x86_Realtek_USB_Driver_1030.21.0302.2017.rar)
+[win10_x64](https://files.emlid.com/edge/drivers/windows/Win10_x64_Realtek_USB_Driver_1030.24.0601.2017.rar) | [win8_x64](https://files.emlid.com/edge/drivers/windows/Win8_x64_Realtek_USB_Driver_1030.21.0302.2017.rar) | [win7_x64](https://files.emlid.com/edge/drivers/windows/Win7_x64_Realtek_USB_Driver_1030.21.0302.2017.rar) | [winVista_x64](https://files.emlid.com/edge/drivers/windows/Vista_x64_Realtek_USB_Driver_1030.21.0302.2017.rar) | [winXP_x64](https://files.emlid.com/edge/drivers/windows/WinXP_x64_Realtek_USB_Driver_1030.21.0302.2017.rar)
+
+</center>
 
 *   Connect Wi-Fi module to the laptop.
 *   Start device manager:
-    * Open the "Run" dialog box by pressing and holding the Windows key, then press the R key ("Run")
-    * Type devmgmt.msc
+    * Open the "Run" dialog box by pressing and holding the Windows key, then press the R key
+    * Type `devmgmt.msc`
 
 <div style="text-align: center;"><img src="../img/quickstart/devmgmt.png" style="width: 450px;"></div><br>
 
-* Expand Network Adapters category
-* Right click on “Realtek 8812AU Wireless LAN 802.11ac USB NIC” and select Update Driver Software
-* Select Search automatically for updated driver software
+* Expand *Network adapters* category
 
-<div style="text-align: center;"><img src="../img/quickstart/windows_drivers_search.png" style="width: 550px;"></div><br>
+!!! note
+    Wi-Fi module might appear in *Other devices* category
 
-Windows will find the newest version of driver and install it.
+* Right click on “Realtek 8812AU Wireless LAN 802.11ac USB NIC” and select *Update Driver Software*
 
 <div style="text-align: center;"><img src="../img/quickstart/device_manager.png" style="width: 550px;"></div><br>
+
+* Select *Browse my computer for driver software*
+
+<div style="text-align: center;"><img src="../img/quickstart/windows_browse_local.png" style="width: 550px;"></div><br>
+
+* Click *Browse* to find the location of driver's directory
+
+* Click *Next* to install the driver
+
 
 !!! warning
     You you should turn off location services on Windows in order to make the driver work smoother. This setting has a direct impact on the stability of the videostream.
