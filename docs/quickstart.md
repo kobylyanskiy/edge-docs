@@ -9,8 +9,7 @@ After that you can proceed to the hardware installation guide and install your E
 
 ## Connect Edge GNSS module
 
-Edge GNSS module is a positioning device interfaced via CAN bus. It includes a GPS/GLONASS/BeiDou/Galileo receiver, a high-precision barometer, and two 3-axis compasses.
-The module has 2 ports internally connected to the same CAN bus.
+Edge GNSS module is a positioning device that contains a GNSS receiver, a high-precision barometer and two 3-axis compasses.
 
 To connect Edge GNSS module to Edge use a JST-GH-4P to JST-GH-4P cable.
 
@@ -111,7 +110,7 @@ Windows 10 | Windows 8 | Windows 7 | Windows Vista | Windows XP
 
 
 !!! warning
-    You you should turn off location services on Windows in order to make the driver work smoother. This setting has a direct impact on the stability of the videostream.
+    It is necessary to off location services on Windows in order to make the driver work smoother. This setting has a direct impact on the stability of the videostream.
 
 ##### Steps for disabling location services in Windows 10
 
