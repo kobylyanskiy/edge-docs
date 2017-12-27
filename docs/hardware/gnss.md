@@ -2,7 +2,9 @@
 
 ### Overview
 
-The Edge GNSS module contains two compasses, barometer and an RGB LED.
+Edge GNSS module is a positioning device interfaced via CAN bus using UAVCAN protocol. It includes a GPS/GLONASS/BeiDou/Galileo receiver, a high-precision barometer, two 3-axis compasses and an RGB LED. The module has 2 CAN ports internally connected to the same CAN bus.
+
+### Connection
 
 Use a JST-GH-4P to JST-GH-4P cable to connect the Edge GNSS module. You can use any CAN port.
 
