@@ -1,12 +1,12 @@
 # Vibration damping
 
-We encourage our users to use a vibration damping platform when installing the Edge drone controller into a frame.
-The vibration damping can drastically reduce the noise coming from motors that shake your frame or other random sources of
-noise. This can greatly improve your flight experience.
+In case of a high vibration on a frame it is possible to install Edge on a vibration damping platform.
+It can drastically reduce the noise coming from motors that shake your frame or other random sources of
+noise and can greatly improve the flight experience.
 
 ## Manufacturing
 
-We'd like to share with all of you STL models of all needed parts. Here's a list of STL files that you can use to print out your very own vibration damping platform
+We developed a model of vibration damping platform specifically for Edge and tested it multiple times with great results. The platform can be easily 3D-printed using the following STL files.
 
 ### Base
 
