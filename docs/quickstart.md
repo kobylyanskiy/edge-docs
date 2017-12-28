@@ -227,15 +227,15 @@ After the connection succeeded you can run the QGC.
 
 On the top window choose QGC settings <span style="text-align: center;"><img src="../img/quickstart/qgc_settings_button.png" style="width: 30px; vertical-align:middle"></span> from the main menu.
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_main_window_settings_selected.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_main_window_settings_selected.png"></div><br>
 
 In the opened settings tab click on Comm Link tab.
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_selected.png" style="width: 280px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_selected.png"></div><br>
 
 You will see the window for creating connection. Click Add to create new connection to Edge. After that you’ll see a tab with network settings.
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_type_udp_selected.png" style="width: 450px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_type_udp_selected.png"></div><br>
 
 Now we need to configure the connection to your Edge. Just a couple more simple steps
 
@@ -251,7 +251,7 @@ After these steps you’ll see the new link added with the name you specified
 
 * Now you can connect to Edge, press connect for the created link
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_connect_selected.png" style="width: 350px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_comm_links_connect_selected.png"></div><br>
 
 !!! warning
     You will need to ensure there is no firewall on PC stopping the incoming stream to your GCS.
@@ -267,11 +267,11 @@ We’re almost there! Just a couple more steps to get the video stream on your s
 
 Go to the Fly menu <span style="text-align: center;"><img src="../img/quickstart/qgc_fly_menu.png" style="width: 30px; vertical-align:middle"></span> and click on a black rectangle in the bottom left corner
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_general_window.png" style="width: 600px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_general_window.png"></div><br>
 
 In the lower right corner will appear an icon <span style="text-align: center;"><img style="vertical-align:middle"  style="width: 10px;" src="../img/quickstart/qgc_general_video_stream_settings.png"> for settings of the video stream:
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_hud_video_stream_settings.png" style="width: 250px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_hud_video_stream_settings.png"></div><br>
 
 After pressing this button a menu will pop up
 
@@ -284,7 +284,7 @@ Here you can set video resolution, bitrate and rotation
 
 After this step click `Start streaming` and you will get the video stream from your camera.
 
-<div style="text-align: center;"><img src="../img/quickstart/qgc_video_stream_example.png" style="width: 550px;"></div><br>
+<div style="text-align: center;"><img src="../img/quickstart/qgc_video_stream_example.png"></div><br>
 
 !!! attention
     Please don’t unplug or turn off camera before clicking on “Stop streaming”
