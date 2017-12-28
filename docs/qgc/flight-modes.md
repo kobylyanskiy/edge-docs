@@ -52,5 +52,5 @@ including triggering a camera shutter).
 <hr>
 
 !!! tip
-    If you want to learn more about the available flight modes, please, refer to the ardupilot docs available
+    If you want to learn more about the available flight modes, please, refer to the ArduPilot docs available
     [here](http://ardupilot.org/copter/docs/flight-modes.html).
