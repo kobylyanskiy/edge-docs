@@ -26,7 +26,7 @@ Edge has two LEDs, which are used as status indicators
 | LED state | Demo |
 |-----------|------|
 |<div style="margin-top: 25px">Normal operation</div>|<div><img src="../img/led-status/wifi_led_blue.png" style="height: 70px;"></div>  |
-|<div style="margin-top: 25px">Waiting Wi-Fi</div>|<div><img src="../img/led-status/wifi_led_yellow.png" style="height: 70px;"></div>  |
+|<div style="margin-top: 25px">Waiting Wi-Fi</div>|<div><img src="../img/led-status/wifi_led_green.png" style="height: 70px;"></div>  |
 |<div style="margin-top: 25px">Error</div>|<div><img src="../img/led-status/wifi_led_red.png" style="height: 70px;"></div>  |
 
 LEDs' colors and sequences depend on the frame you use. So we ask you to refer 
