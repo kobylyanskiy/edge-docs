@@ -53,6 +53,9 @@ pages:
   - 'Additional parameters': 'qgc/parameters.md'
   - 'Troubleshooting': 'qgc/troubleshooting.md'
 - LED status: 'led-status.md'
+- Edge for developers:
+  - 'ArduPilot': 'dev/ardupilot.md'
+  - 'QGC': 'dev/qgc.md'
 - Specifications: 
   - 'Mechanical': 'specs/mechanical.md'
   - 'Electrical': 'specs/electrical.md'
