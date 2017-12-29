@@ -20,6 +20,8 @@ In the box:
 
 * 1 x Pack of wires
 
+* 2 x Packs of mounting foam
+
 * 1 x User guide
 
 
