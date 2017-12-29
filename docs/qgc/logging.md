@@ -31,7 +31,7 @@ menu bar, then select the 'General' tab. Select the option to save logs 'even if
 telemetry while disarmed. In order to save a telemetry log from QGroundControl, you must click save when prompted after
 disconnecting from the vehicle, or after quitting the application.
 
-<div style="text-align: center;"><img src="../../img/qgc/logging-when-disarmed.png" style="width: 700px;"> </div>
+<div style="text-align: center;"><img src="../../img/qgc/logging-when-disarmed.png"> </div>
 
 !!! tip
     QGroundControl allows you to configure a directory to automatically save all telemetry logs.
