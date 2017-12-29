@@ -17,3 +17,4 @@ Video streaming was successfully tested on the following camera models (other mo
 - GoPro HERO 4
 - GoPro Hero 5
 - YI Action Camera 1
+- Sony α6000
