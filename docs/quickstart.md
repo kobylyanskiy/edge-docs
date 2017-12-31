@@ -178,13 +178,13 @@ The installation steps depend on the OS you use as well.
 
 #### Windows
 
-* [Download](http://files.emlid.com/qgc/3.2.4-edge-2.0/QGroundControl-3.2.4-edge-2.0-windows.exe) the app
+* [Download](http://files.emlid.com/qgc/3.2.4-edge-2.1/QGroundControl-3.2.4-edge-2.1-windows.exe) the app
 * Double click the executable to launch the installer and click through the required steps
 
 #### Linux
 
-* [Download](http://files.emlid.com/qgc/3.2.4-edge-2.0/QGroundControl-3.2.4-edge-2.0-linux.AppImage.zip) the app
-* Install GStreamer libraries 
+* [Download](http://files.emlid.com/qgc/3.2.4-edge-2.1/QGroundControl-3.2.4-edge-2.1-linux.AppImage.zip) the app
+* Install GStreamer libraries
 
 ```
 apt install gstreamer1.0-plugins-bad gstreamer1.0-libav
