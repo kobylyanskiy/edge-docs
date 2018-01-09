@@ -30,7 +30,8 @@ packages from say, a Linux distribution, because QGroundControl needs access to 
   - If you install Qt to a non-default location you will need to modify qgroundcontrol-start.sh 
 in order to run downloaded builds.
 
-!!! danger "Attention" Windows: Make sure to install VS 2015 32 bit package.
+!!! danger "Attention"
+	Windows: Make sure to install VS 2015 32 bit package.
 
 #### Additional packages
 - **Linux(Ubuntu)**: ```$ sudo apt-get install espeak libespeak-dev libudev-dev libsdl2-dev libblkid-dev```
@@ -42,8 +43,8 @@ in order to run downloaded builds.
   - [gstreamer-1.0-devel-x86-1.5.2.msi](https://gstreamer.freedesktop.org/data/pkg/windows/1.5.2/gstreamer-1.0-devel-x86-1.5.2.msi)
   - [gstreamer-1.0-x86-1.5.2.msi](https://gstreamer.freedesktop.org/data/pkg/windows/1.5.2/gstreamer-1.0-x86-1.5.2.msi)
   
-!!! danger "Attention" Make sure you select "Complete" installation instead of "Typical" installation during the install process. 
-The installer places them under c:\gstreamer, which is where the QGC build system will look for it.
+!!! danger "Attention"
+	Make sure you select "Complete" installation instead of "Typical" installation during the install process. The installer places them under c:\gstreamer, which is where the QGC build system will look for it.
 
 ### Building using Qt Creator (Windows and Linux)
 
