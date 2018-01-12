@@ -12,4 +12,6 @@
 
 <a href="../../img/hardware/edge_ports_horizontal.png" target="_blank"> ![scheme](https://docs.emlid.com/edge/img/hardware/edge_ports_horizontal.png)</a>
 
+<a href="../../img/hardware/edge_ports_side_view.png" target="_blank"> ![scheme](https://docs.emlid.com/edge/img/hardware/edge_ports_side_view.png)</a>
+
 <a href="../../img/hardware/edge_ports_back.png" target="_blank"> ![scheme](https://docs.emlid.com/edge/img/hardware/edge_ports_back.png)</a>
