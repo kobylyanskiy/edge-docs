@@ -1,10 +1,21 @@
 ## Edge drone controller
 
-|Port | Current |
+Maximum current load for accessories connected to peripheral ports.
+
+|Ports | Max current load |
 |:-|:-:|
-|CAN combined | 700mA|
+|CAN+CAN+SER1+SER2 | 700mA|
 |USB1 + USB2 | 1300mA|
-|RC receiver| 300mA|
+|RC-Input | 300mA|
+
+Edge power consumption (not including consuption by connected accessories)
+
+| State | Max current consumption |
+|:-|:-:|
+|W/o video compression | ~700mA|
+|With video compression | ~400mA|
+
+Sum current consumption by Edge drone controller with maximum load on peripheral ports is *3A*.
 
 ## Power module
 
