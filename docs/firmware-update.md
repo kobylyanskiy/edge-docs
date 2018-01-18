@@ -4,6 +4,8 @@ Download the latest available image and extract it
 
 * [Emlid Edge image v1.3 (2017-12-30)](https://files.emlid.com/edge/firmware/2017-12-30-edge-emlid-v1.3.img.zip)
 
+Use [QGroundControl](quickstart/#qgroundcontrol-for-edge) specifically tailored for Edge
+
 ## Connect Edge to a computer
 
 !!! notice 
