@@ -29,6 +29,7 @@ markdown_extensions:
 
 pages:
 - Introduction : 'index.md'
+- GCS installation: 'gcs-installation.md'
 - Firmware update: 'firmware-update.md'
 - Quickstart: 'quickstart.md'
 - Hardware installation: 
