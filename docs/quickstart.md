@@ -167,6 +167,10 @@ dmesg | grep 'EFI: Loaded cert' | grep 8812
 * [Download](http://files.emlid.com/edge/drivers/macosx/036AC_ACH_MacOS10.6_MacOS10.11_Driver_1830.10.b2_1827.4.b22_DropDownMenu_5.0.3.b3.zip) the driver
 * Unzip the downloaded archive and install it from the pkg file
 
+## Ground Control Station
+
+Install [GCS](gcs-installation.md) specifically tailored for Edge.
+
 ## Power from a battery
 
 Now you can turn on your Edge using the Edge Power Module (PM).
