@@ -14,6 +14,8 @@ ERB support is included to ArduPilot starting with the following versions:
 
 ## Recommended setup
 
+<div style="text-align: center;"><img src="../../img/reach-integration/setup-scheme.png" style="width: 100%;"></div>
+
 The setup we recommend goes as follows:
 
 * Edge with [Emlid Edge image v1.3](https://docs.emlid.com/edge/firmware-update/) or higher
@@ -29,6 +31,7 @@ The following guide will show how to configure both Edge and Reach to work in th
 
 Connect Reach's upper DF13 port with Edge's **SER1-I2C** port.
 
+<div style="text-align: center;"><img src="../../img/reach-integration/edge-reach-connection.png" style="width: 100%;"></div>
 
 
 ## Configuring Reach to work with Edge
