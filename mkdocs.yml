@@ -62,5 +62,7 @@ pages:
   - 'Mechanical': 'specs/mechanical.md'
   - 'Electrical': 'specs/electrical.md'
   - 'Features': 'specs/features.md'
+- Tutorials:
+  - 'Reach integration': 'tutorials/reach-integration.md'
 
 
