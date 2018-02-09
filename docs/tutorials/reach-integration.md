@@ -82,9 +82,14 @@ Now configure position output:
 
 ### Configuring ArduPilot to accept Reach solution
 
-ArduPilot configuration will require setting GPS parameters via QGroundControl.
-After connecting, go to `Vehicle Setup` menu, then click `Parameters` list on the left.
-To find the desired parameter more quickly, use a search box on top of the list.
+ArduPilot configuration will require setting GPS parameters via QGroundControl:
+
+* Open QGroundControl
+* Go to `Vehicle Setup` menu
+* Open `Parameters` list on the left.
+
+!!! tip
+    To find the desired parameter more quickly, use a search box on top of the list.
 
 * Set **GPS_TYPE2** parameter to "AUTO". This will enable the second GPS input.
 
