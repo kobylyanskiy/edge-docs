@@ -18,9 +18,9 @@ ERB support is included to ArduPilot starting with the following versions:
 
 The setup we recommend goes as follows:
 
-* Edge with [Emlid Edge image v1.3](https://docs.emlid.com/edge/firmware-update/) or higher
+* Edge with [Emlid Edge image](https://docs.emlid.com/edge/firmware-update/) (v1.3 or higher)
 * Base station is a Reach or Reach RS unit connected to PC via USB
-* GCS is a laptop with [QGroundControl for Edge](https://docs.emlid.com/edge/gcs-installation/#qgroundcontrol-for-edge) : 
+* GCS is a laptop with [QGroundControl](https://docs.emlid.com/edge/gcs-installation/#qgroundcontrol-for-edge) (v3.2.4-edge-2.2 or higher)
 * Alfa Wi-Fi adapter is plugged in the laptop and connected to Edge's Wi-Fi network
 * Rover Reach unit is mounted on a drone and connected to Edge via the GST-to-DF13 wire. This connection type will solve three problems at once: power Reach, allow ArduPilot to pass base corrections and allow Reach to pass RTK solution back.
 
@@ -82,9 +82,14 @@ Now configure position output:
 
 ### Configuring ArduPilot to accept Reach solution
 
-ArduPilot configuration will require setting GPS parameters via QGroundControl.
-After connecting, go to `Vehicle Setup` menu, then click `Parameters` list on the left.
-To find the desired parameter more quickly, use a search box on top of the list.
+ArduPilot configuration will require setting GPS parameters via QGroundControl:
+
+* Open QGroundControl
+* Go to `Vehicle Setup` menu
+* Open `Parameters` list on the left.
+
+!!! tip
+    To find the desired parameter more quickly, use a search box on top of the list.
 
 * Set **GPS_TYPE2** parameter to "AUTO". This will enable the second GPS input.
 
