@@ -101,3 +101,5 @@ ArduPilot configuration will require setting GPS parameters via QGroundControl:
 
 
 After everything is done vehicle GPS switches to RTK mode. The new mode is displayed in the GPS status icon
+
+<div style="text-align: center;"><img src="../../img/reach-integration/gps-status.png" style="width: 100%;"></div>
