@@ -45,31 +45,21 @@ Wait several seconds while QGrounControl initializes your device.
 
 <div style="text-align: center;"><img src="../img/firmware-update/qgc/init_start.png" style="width: 800px;"></div><br>
 
-After initialization completes, you'll see this dialog:
+After initialization completes, you'll see this dialog with:
 
-* (1) You can enable or disable checksum computation 
-* (2) You should choose file with Edge firmware
+* Needed disk space for download and exatract firmware image
+* Release date of new firmware
+* Available version of firmware for Edge
+* Current version of plugged Edge 
 
-!!! tip
-	If you enable checksum computation, QGroundControl will check correctness of flashing.
-	
 <div style="text-align: center;"><img src="../img/firmware-update/qgc/prefs_menu.png" style="width: 800px;"></div><br>
 
-Next, you should select Edge firmware image
-
-<div style="text-align: center;"><img src="../img/firmware-update/qgc/select_file.png" style="width: 800px;"></div><br>
-
-After file is selected, press `Ok` at the top right corner of the dialog window and firmware update will start.
+Next, you should click `Ok` and firmware update will start. 
 You can cancel the update process by pressing `Cancel` button.
-
-!!! tip
-	If you enable checksum, you should wait while QGroundControl computes it from your image and from image which is written to the device. The progress of computation will be shown on the progress bar.
 
 <div style="text-align: center;"><img src="../img/firmware-update/qgc/flasher_running.png" style="width: 800px;"></div><br>
 
 When firmware update complete, you can unplug your device.
-
-<div style="text-align: center;"><img src="../img/firmware-update/qgc/end.png" style="width: 800px;"></div><br>
 
 ### Etcher (Windows)
 
