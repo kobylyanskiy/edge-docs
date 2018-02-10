@@ -32,7 +32,7 @@ pages:
 - GCS installation: 'gcs-installation.md'
 - Firmware update: 'firmware-update.md'
 - Quickstart: 'quickstart.md'
-- Hardware installation: 
+- Hardware installation:
   - 'Ports and pinouts': 'hardware/pinout.md'
   - 'Edge GNSS': 'hardware/gnss.md'
   - 'Camera': 'hardware/camera.md'
@@ -42,7 +42,7 @@ pages:
   - 'Mounting': 'hardware/mounting.md'
 - Optional Accessories:
   - 'Vibration damping': 'accessories/vibro.md'
-- Flying with QGroundControl: 
+- Flying with QGroundControl:
   - 'Frame configuration': 'qgc/frame.md'
   - 'Calibration': 'qgc/calibration.md'
   - 'Connection': 'qgc/connection.md'
@@ -58,11 +58,11 @@ pages:
 - Edge for developers:
   - 'ArduPilot': 'dev/ardupilot.md'
   - 'QGC': 'dev/qgc.md'
-- Specifications: 
+- Specifications:
   - 'Mechanical': 'specs/mechanical.md'
   - 'Electrical': 'specs/electrical.md'
   - 'Features': 'specs/features.md'
 - Tutorials:
   - 'Reach integration': 'tutorials/reach-integration.md'
-
-
+- Changelogs:
+  - 'QGC changelog': 'changelogs/qgc-changelog.md'
