@@ -25,9 +25,9 @@ In the box:
 * 1 x User guide
 
 
-### Quickstart
+### Getting started
 
-[Getting started with Edge](quickstart.md)
+First step to begin working with Edge is to [install QGroundControl for Edge](gcs-installation.md)
 
 ### Collaboration
 
