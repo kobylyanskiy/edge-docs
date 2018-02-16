@@ -58,6 +58,7 @@ pages:
 - Edge for developers:
   - 'ArduPilot': 'dev/ardupilot.md'
   - 'QGC': 'dev/qgc.md'
+  - 'Firmware update': 'dev/firmware-update.md'
 - Specifications:
   - 'Mechanical': 'specs/mechanical.md'
   - 'Electrical': 'specs/electrical.md'
